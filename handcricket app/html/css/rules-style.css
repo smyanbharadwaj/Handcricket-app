@@ -1,0 +1,84 @@
+/* Using a clean, modern font stack */
+body {
+    background-image: url("https://media.istockphoto.com/id/1442572567/photo/cricket-leather-ball-and-wickets-in-stadium-with-copy-space.jpg?s=612x612&w=0&k=20&c=1ePDu5PpEUtt5LKfrUaIuN9JttdNZQ3IH-RbUX-yrnI=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Keeps background still while you scroll */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Cascadia Code', 'Courier New', monospace;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #f1c40f; /* Gold color for the main title */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.rules-box {
+    background: rgba(0, 0, 0, 0.8); /* Darker background for better readability */
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    text-align: left; /* Rules are easier to read left-aligned */
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 2px solid #f1c40f;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #3498db; /* Blue for sub-headers */
+    margin-top: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 20px 0;
+}
+
+.play-btn {
+    display: block;
+    background-color: #27ae60; /* Cricket Green */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.play-btn:hover {
+    background-color: #2ecc71;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(46, 204, 113, 0.4);
+}

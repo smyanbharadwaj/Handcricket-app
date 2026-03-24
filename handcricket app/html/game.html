@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/game-style.css">
+    <title>Hand Cricket - Game Start</title>
+</head>
+<body>
+    <div class="container">
+        <img src="images\Screenshot 2026-03-20 123613.png" alt="logo" >
+        
+        <div class="game-box">
+            <div class="scoreboard">
+                <h2 id="role-display">Loading...</h2>
+                <div class="stats-row">
+                    <div class="stat">
+                        <span class="label">SCORE</span>
+                        <span id="score-val">0</span>
+                    </div>
+                    <div id="target-box" class="stat" style="visibility: hidden;">
+                        <span class="label" style="color: #e74c3c;">TARGET</span>
+                        <span id="target-val">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="game-controls">
+                <button id="start-game" class="btn">Start Game</button>
+                <div id="buttons" class="number-grid"></div>
+            </div>
+
+            <div class="results-panel">
+                <p id="useresult">You: -</p>
+                <p id="cpuresult">CPU: -</p>
+                <div id="outed"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>

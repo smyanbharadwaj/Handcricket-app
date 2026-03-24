@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/toss-style.css">
+    <title>Hand Cricket - The Toss</title>
+</head>
+<body>
+
+    <div class="container">
+        <img src="images\Screenshot 2026-03-20 123613.png" alt="logo">
+        
+        <div class="game-box" id="game-area">
+            <h2 id="phase-title">🏏 The Toss</h2>
+            
+            <div id="toss-choice">
+                <p style="text-align: center;">Choose Even or Odd to start the match:</p>
+                <div class="button-group">
+                    <button class="btn" onclick="handleTossChoice('even')">EVEN</button>
+                    <button class="btn" onclick="handleTossChoice('odd')">ODD</button>
+                </div>
+            </div>
+
+            <div id="number-input" class="hidden">
+                <p id="instruction-text" style="text-align: center;"></p>
+                <div class="number-grid" id="num-btns">
+                    </div>
+            </div>
+
+            <div id="toss-result" class="hidden">
+                <h3 id="result-message" style="text-align: center;"></h3>
+                <div class="button-group" id="decision-btns"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/toss.js"></script>
+</body>
+</html>

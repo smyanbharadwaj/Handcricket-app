@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1442572567/photo/cricket-leather-ball-and-wickets-in-stadium-with-copy-space.jpg?s=612x612&w=0&k=20&c=1ePDu5PpEUtt5LKfrUaIuN9JttdNZQ3IH-RbUX-yrnI=");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Cascadia Code', monospace;
+}
+
+.container { width: 90%; max-width: 500px; text-align: center; }
+
+.game-box {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #f1c40f;
+    color: white;
+}
+
+.stats-row { display: flex; justify-content: space-around; margin: 20px 0; }
+.stat { display: flex; flex-direction: column; }
+.label { font-size: 0.8rem; color: #3498db; }
+#score-val, #target-val { font-size: 2.5rem; font-weight: bold; color: #f1c40f; }
+
+.number-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin: 20px 0; }
+.num-btn {
+    background: #3498db; color: white; border: none;
+    padding: 12px; border-radius: 8px; cursor: pointer; font-weight: bold;
+}
+.num-btn:hover { background: #2980b9; transform: scale(1.1); }
+
+.btn { background: #27ae60; color: white; padding: 15px 30px; border: none; border-radius: 10px; font-weight: bold; cursor: pointer; }
+.results-panel { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px; }
