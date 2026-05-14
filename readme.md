@@ -1,6 +1,6 @@
 # hi my name is smyan bharadwaj and i am a 9th grader and i created a project called handcricket hope you like it and if you like it send your apperication through my contact below
 
- # contact :- smyansai@gmail.com
+ # contact :- smyan.dev@gmail.com
 
 Game Rules (1-10)
 The Objective
